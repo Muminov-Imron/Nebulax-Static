@@ -1,17 +1,15 @@
-# Nebulax — Static Site
+# Nebulax — Statik Sayt (3D + i18n)
 
-Statik HTML/CSS/JS versiya. Build kerak emas — to'g'ridan-to'g'ri ishlaydi.
+Live Server uchun tayyor. `npm install` kerak emas.
 
-## VS Code da ko'rish (Live Server)
+## Ishga tushirish
+1. VS Code'da papkani oching
+2. Live Server kengaytmasini o'rnating (`ritwickdey.LiveServer`)
+3. `index.html` ni oching → "Go Live" tugmasini bosing
 
-1. Bu papkani VS Code da oching: `File → Open Folder`
-2. **Live Server** kengaytmasini o'rnating (Ratchapong Manoonphol tomonidan, `ritwickdey.LiveServer`)
-3. **`index.html`** ni oching → pastki o'ng burchakda **"Go Live"** tugmasini bosing
-4. Brauzer ochiladi va sayt ko'rinadi 🎉
+## Xususiyatlar
+- 3 til (EN / UZ / RU) — yuqori o'ngdagi til menyusidan tanlang
+- 3D aylanuvchi shar va zarralar fon
+- Barcha sahifalar SSR bilan oldindan render qilingan
 
-## Sahifalar
-
-- `index.html` — Bosh sahifa
-- `features.html`, `solutions.html`, `pricing.html`, `customers.html`, `blog.html`, `about.html`, `contact.html`
-
-**Eslatma:** Bu statik snapshot — sahifalar orasida o'tish brauzer URL'ini almashtiradi (masalan `/features` → siz qo'lda `features.html` ga o'tasangiz bo'ladi). Live Server pretty URL ni qo'llab-quvvatlaydi.
+Muminov Imron tomonidan tayyorlandi.
